@@ -31,6 +31,7 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Национальные парки")
+            .listStyle(PlainListStyle())
         }
     }
 }
